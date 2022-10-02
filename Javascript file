@@ -1,5 +1,4 @@
 import { LightningElement } from 'lwc';
-export default class ButtonIconBasic extends LightningElement {}
 export default class ButtonBasic extends LightningElement {
     clickedButtonLabel;
 
