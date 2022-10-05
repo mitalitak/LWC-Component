@@ -13,7 +13,7 @@ import { LightningElement } from 'lwc';
 export default class ButtonBasic extends LightningElement {
     clickedButtonLabel;
 
-
+// this event call other events
     handleClick(event) {
         this.clickedButtonLabel = event.target.label;
     }
