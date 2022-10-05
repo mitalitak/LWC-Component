@@ -25,7 +25,11 @@
         <!-- Success variant: Identifies a successful action -->
         <lightning-button variant="success" label="Success" title="Successful action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
     </div>
-
+    <div class="slds-box slds-theme_default">
+    <b class={textColorClass}>
+        This is a Sample text used as an example to change color. 
+        <a href="www.Salesforce.fun">www.Salesforce.fun</a>
+    </b>
     <div class="slds-m-vertical_medium">
         <p>The label of the button that was clicked is: <span class="slds-text-heading_small">{clickedButtonLabel}</span></p>
     </div>
