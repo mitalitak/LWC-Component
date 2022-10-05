@@ -1,7 +1,18 @@
 import { LightningElement } from 'lwc';
-
+@track a_Flag = false;
+    @track textColorClass;
+ 
+    handle_Green_Text_Click(event){
+        this.textColorClass = 'green';
+    }
+ 
+    handle_Blue_Text_Click(event){
+        this.textColorClass = 'blue';
+    }
+ 
 export default class ButtonBasic extends LightningElement {
     clickedButtonLabel;
+
 
     handleClick(event) {
         this.clickedButtonLabel = event.target.label;
