@@ -2,6 +2,10 @@ import { LightningElement } from 'lwc';
 export default class ButtonBasic extends LightningElement {
     clickedButtonLabel;
 
+<lightning-button c-alphacreateorderform_alphacreateorderform="" data-id="adobeSignBtn"
+    <button name="Send for Signature" type="button" class="slds-button slds-button_success slds-button_first">Send for Signature</button>
+</lightning-button>
+
     handleClick(event) {
         this.clickedButtonLabel = event.target.label;
     }
