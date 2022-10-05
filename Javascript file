@@ -1,4 +1,5 @@
 import { LightningElement } from 'lwc';
+this.template.querySelector('[data-id="Green_Button"]').click();
 
 export default class ButtonBasic extends LightningElement {
     clickedButtonLabel;
